@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 1</title>
+    <style>
+        table {
+            width: 100%;
+        }
+        .first {
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 3px solid white;
+            background-color: #96D4D4;
+            padding: 15px 30px;
+        }
+
+        /* Center the content on the page */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Rectangle */
+        .rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: #96D4D4;
+            border: 3px solid white;
+        }
+
+        /* Square (same as Rectangle) */
+        .square {
+            width: 200px;
+            height: 200px;
+            background-color: #96D4D4;
+            border: 3px solid white;
+            margin-top: 20px; /* Adjust spacing between Rectangle and Square */
+        }
+
+        /* Circle */
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: #96D4D4;
+            border: 3px solid white;
+            border-radius: 50%; /* Makes it a circle */
+            margin-top: 20px; /* Adjust spacing between Square and Circle */
+        }
+    </style>
+</head>
+<body>
+    <table border="2" class="first">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Jill</th>
+                <th>Smith</th>
+                <th>50</th>
+            </tr>
+            <tr>
+                <th>John</th>
+                <th>Doe</th>
+                <th>80</th>
+            </tr>
+            <tr>
+                <th>John</th>
+                <th>Robert</th>
+                <th>69</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Shapes -->
+    <div class="rectangle"></div>
+    <div class="square"></div>
+    <div class="circle"></div>
+</body>
+</html>
